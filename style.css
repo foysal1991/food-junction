@@ -26,8 +26,14 @@ body {
   width: 33.33%;
   padding: 20px;
   margin: 0 20px;
-  box-shadow: 2px 5px 15px #979797;
+  box-shadow: 2px 5px 10px #979797;
   border-radius: 20px;
+  transition: 0.4s;
+}
+
+.one-third-box:hover{
+  box-shadow: 4px 7px 20px #979797;
+
 }
 
 img {
@@ -49,28 +55,82 @@ h3 {
   margin-bottom: 20px;
 }
 
-h4{
+h4 {
   font-size: 26px;
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
 
+h5 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #979797;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 16px;
+  color: #979797;
+}
+
 .btn {
   text-decoration: none;
   padding: 13px 30px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1px;
   color: #fff;
   text-transform: capitalize;
   background: linear-gradient(45deg, orange, orangered);
   display: inline-block;
   border-radius: 100px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, orangered, orange);
+  color: #000;
 }
 
 .image-box {
   text-align: center;
+}
+
+/* Nav CSS */
+
+nav {
+  padding: 20px 0;
+}
+
+#logo {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid orangered;
+  padding: 10px 30px;
+}
+
+nav .equal-box ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav .equal-box ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #666;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+
+nav .equal-box ul li a:hover {
+  font-weight: 700;
+  color: orangered;
 }
 
 /* Hero Area CSS  */
@@ -79,7 +139,7 @@ h4{
   padding: 50px 0;
 }
 
-.hero-area h1 span {
+span {
   color: orangered;
 }
 
@@ -130,12 +190,69 @@ h4{
   line-height: 1.7;
 }
 
-.my-recipe .one-third-box img{
+.my-recipe .one-third-box img {
   border-radius: 20px;
   margin-bottom: 20px;
 }
 
-.my-recipe .one-third-box p{
+.my-recipe .one-third-box p {
   padding-right: 5%;
   line-height: 1.7;
+}
+
+/* Followers CSS */
+
+.followers {
+  padding: 60px 0;
+}
+
+.followers h1 {
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.followers-content {
+  padding: 50px 30px;
+  margin: 0 20px;
+  box-shadow: 2px 5px 10px #979797;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.followers-content:hover{
+  box-shadow: 2px 5px 20px #979797;
+}
+
+.content-box {
+  text-align: center;
+  width: 33.33%;
+}
+
+/* Contact Us CSS */
+
+.contact {
+  padding: 50px 0;
+  background-color: #000;
+}
+
+.contact p {
+  color: #e1f1e1;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #666;
+  transition: 0.4s;
+}
+
+.contact a:hover {
+  color: orangered;
+}
+
+footer {
+  background-color: #0b0c10;
+  text-align: center;
+  padding: 20px 0;
 }
