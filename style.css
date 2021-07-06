@@ -20,6 +20,25 @@ body {
 
 .equal-box {
   width: 50%;
+} 
+
+.one-third-box{
+  width: 33.33%;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #444;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 32px;
+  text-transform: capitalize;
+  color: #666;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -39,20 +58,10 @@ body {
   text-align: center;
 }
 
-img {
-  width: 100%;
-}
+/* Hero Area CSS  */
 
 .hero-area {
   padding: 50px 0;
-}
-
-.hero-area h1 {
-  font-size: 55px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #444;
-  line-height: 1.2;
 }
 
 .hero-area h1 span {
@@ -69,4 +78,42 @@ img {
   color: #666;
   padding-right: 130px;
   margin-bottom: 30px;
+}
+
+.hero-area img {
+  width: 100%;
+}
+
+/* About Area CSS */
+
+.about-area {
+  background-image: url("images/bg-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.about-area img {
+  width: 50%;
+}
+
+.about-area p {
+  line-height: 1.7;
+  padding-right: 20%;
+  margin-bottom: 50px;
+}
+
+/* My Recipe CSS */
+
+.my-recipe {
+  padding: 50px 0;
+}
+
+.my-recipe .title-box {
+  text-align: center;
+}
+
+.my-recipe .title-box p{
+  padding: 0 25%;
+  line-height: 1.7;
 }
